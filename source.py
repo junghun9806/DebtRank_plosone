@@ -191,11 +191,15 @@ class Simulator():
         
         for bank_idx_i in range(self.n):
             for bank_index_j in range(self.n):
-                val = min(self.AssetMat.get_mat()[bank_idx_i, bank_index_j] , 0)
+                val = min(self.AssetMat.get_mat()[bank_idx_i, bank_index_j] , 0) / equity[bank_index_j]
                 self.LevMat.update_element(bank_idx_i, bank_index_j, val)
             #
         #
-            
+        pass   
+    #
+    
+        
+        
         
         
         
