@@ -198,23 +198,6 @@ class Simulator():
         pass   
     #
     
-    
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-            
-            
-            
-        
-    #
     def initial_shock(self):
         
     
